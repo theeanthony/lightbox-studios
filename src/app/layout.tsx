@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Lightbox Studios — Building Software to Empower",
+  title: "Lightbox Studios — Building software to empower",
   description:
-    "Lightbox Studios builds tools that empower independent professionals. Forge, Elevate, CrewTap, and more.",
+    "Independent software studio building tools for trainers, crews, and everyone running a business from their phone.",
   openGraph: {
     title: "Lightbox Studios",
-    description: "Building Software to Empower",
+    description: "Building software to empower",
     url: "https://lightboxstudios.org",
     siteName: "Lightbox Studios",
     type: "website",
@@ -29,7 +29,7 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&family=Syne:wght@700;800&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
           rel="stylesheet"
         />
       </head>
