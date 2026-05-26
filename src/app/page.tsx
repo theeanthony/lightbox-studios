@@ -60,7 +60,7 @@ export default function Home() {
           </div>
 
           <div className="foot-row fade-up delay-5">
-            <span className="eyebrow">Three products in motion</span>
+            <span className="eyebrow">Four products in motion</span>
             <span className="eyebrow">Scroll ↓</span>
           </div>
         </div>
@@ -73,9 +73,9 @@ export default function Home() {
         <div className="shell">
           <div className="section-header">
             <div>
-              <span className="eyebrow">◉ Index — 01/03</span>
+              <span className="eyebrow">◉ Index — 01/04</span>
               <h2>
-                Three products,
+                Four products,
                 <br />
                 one discipline.
               </h2>
@@ -203,6 +203,48 @@ export default function Home() {
               <p className="pitch">
                 Turn blurry, low-res photos into crisp, restored 4K with
                 pro-grade AI — upscale, denoise, and recover detail in a tap.
+              </p>
+              <div className="foot">
+                <span className="platform">iOS</span>
+                <span className="visit">
+                  App Store <span className="arr">↗</span>
+                </span>
+              </div>
+            </a>
+
+            {/* Elevate */}
+            <a
+              className="product live elevate"
+              href="https://apps.apple.com/app/id6745115454"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="status">
+                <span className="dot" />
+                Live
+              </span>
+              <div className="panel" aria-hidden="true">
+                <div className="glow-blob" />
+                <div className="chrome">
+                  <span className="dot" />
+                  <span className="dot" />
+                  <span className="dot" />
+                  <span className="url">Elevate · iOS</span>
+                </div>
+                <div className="preview">
+                  <div className="favicon">
+                    <img src="/elevate-logo.png" alt="Elevate" />
+                  </div>
+                  <div className="wordmark">Elevate</div>
+                  <div className="tagline">Lift · together</div>
+                </div>
+                <div className="scan" />
+              </div>
+              <div className="kicker">Fitness · Lifting</div>
+              <h3>Elevate</h3>
+              <p className="pitch">
+                Lift together. Track your workouts, share progress, and push
+                each other to level up.
               </p>
               <div className="foot">
                 <span className="platform">iOS</span>
