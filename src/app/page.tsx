@@ -171,10 +171,15 @@ export default function Home() {
             </a>
 
             {/* Rez AI */}
-            <div className="product rezai">
+            <a
+              className="product live rezai"
+              href="https://apps.apple.com/app/id6755569045"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <span className="status">
                 <span className="dot" />
-                Coming soon
+                Live
               </span>
               <div className="panel" aria-hidden="true">
                 <div className="glow-blob" />
@@ -201,9 +206,11 @@ export default function Home() {
               </p>
               <div className="foot">
                 <span className="platform">iOS</span>
-                <span className="visit">App Store soon</span>
+                <span className="visit">
+                  App Store <span className="arr">↗</span>
+                </span>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </section>
