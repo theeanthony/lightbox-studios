@@ -60,7 +60,7 @@ export default function Home() {
           </div>
 
           <div className="foot-row fade-up delay-5">
-            <span className="eyebrow">Two products, live &amp; in motion</span>
+            <span className="eyebrow">Three products in motion</span>
             <span className="eyebrow">Scroll ↓</span>
           </div>
         </div>
@@ -73,9 +73,9 @@ export default function Home() {
         <div className="shell">
           <div className="section-header">
             <div>
-              <span className="eyebrow">◉ Index — 01/02</span>
+              <span className="eyebrow">◉ Index — 01/03</span>
               <h2>
-                Two products,
+                Three products,
                 <br />
                 one discipline.
               </h2>
@@ -169,6 +169,41 @@ export default function Home() {
                 </span>
               </div>
             </a>
+
+            {/* Rez AI */}
+            <div className="product rezai">
+              <span className="status">
+                <span className="dot" />
+                Coming soon
+              </span>
+              <div className="panel" aria-hidden="true">
+                <div className="glow-blob" />
+                <div className="chrome">
+                  <span className="dot" />
+                  <span className="dot" />
+                  <span className="dot" />
+                  <span className="url">Rez AI · iOS</span>
+                </div>
+                <div className="preview">
+                  <div className="favicon">
+                    <img src="/rez-ai-logo.jpg" alt="Rez AI" />
+                  </div>
+                  <div className="wordmark">Rez AI</div>
+                  <div className="tagline">Upscale · Restore</div>
+                </div>
+                <div className="scan" />
+              </div>
+              <div className="kicker">AI Photo Enhancement</div>
+              <h3>Rez AI</h3>
+              <p className="pitch">
+                Turn blurry, low-res photos into crisp, restored 4K with
+                pro-grade AI — upscale, denoise, and recover detail in a tap.
+              </p>
+              <div className="foot">
+                <span className="platform">iOS</span>
+                <span className="visit">App Store soon</span>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -247,7 +282,15 @@ export default function Home() {
           <div className="foot-left">
             Lightbox Studios LLC — Indep. Software Studio
           </div>
-          <div className="foot-center">Lightbox</div>
+          <div className="foot-center">
+            <a href="/terms" style={{ color: "inherit", textDecoration: "none" }}>
+              Terms
+            </a>
+            {" · "}
+            <a href="/privacy" style={{ color: "inherit", textDecoration: "none" }}>
+              Privacy
+            </a>
+          </div>
           <div className="foot-right">© 2026 — All rights reserved</div>
         </div>
       </footer>
