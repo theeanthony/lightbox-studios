@@ -123,7 +123,7 @@ export default function RezLanding() {
         </div>
 
         <div className="shell">
-          <CompareSlider before="/rez/before.png" after="/rez/after.png" />
+          <CompareSlider before="/rez/after.png" after="/rez/before.png" />
         </div>
       </section>
 
