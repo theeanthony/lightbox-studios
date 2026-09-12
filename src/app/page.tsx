@@ -60,7 +60,7 @@ export default function Home() {
           </div>
 
           <div className="foot-row fade-up delay-5">
-            <span className="eyebrow">Four products in motion</span>
+            <span className="eyebrow">Five products in motion</span>
             <span className="eyebrow">Scroll ↓</span>
           </div>
         </div>
@@ -73,9 +73,9 @@ export default function Home() {
         <div className="shell">
           <div className="section-header">
             <div>
-              <span className="eyebrow">◉ Index — 01/04</span>
+              <span className="eyebrow">◉ Index — 01/05</span>
               <h2>
-                Four products,
+                Five products,
                 <br />
                 one discipline.
               </h2>
@@ -250,6 +250,43 @@ export default function Home() {
                 <span className="platform">iOS</span>
                 <span className="visit">
                   App Store <span className="arr">↗</span>
+                </span>
+              </div>
+            </a>
+
+            {/* Summit */}
+            <a className="product testing summit" href="/summit">
+              <span className="status">
+                <span className="dot" />
+                Testing
+              </span>
+              <div className="panel" aria-hidden="true">
+                <div className="glow-blob" />
+                <div className="chrome">
+                  <span className="dot" />
+                  <span className="dot" />
+                  <span className="dot" />
+                  <span className="url">Summit · iOS</span>
+                </div>
+                <div className="preview">
+                  <div className="favicon">
+                    <img src="/summit-logo.png" alt="Summit" />
+                  </div>
+                  <div className="wordmark">Summit</div>
+                  <div className="tagline">Climb · for real</div>
+                </div>
+                <div className="scan" />
+              </div>
+              <div className="kicker">Elevation Game</div>
+              <h3>Summit</h3>
+              <p className="pitch">
+                Your real steps and stair-climbs move you up real mountain
+                trails. Race a storm you can see coming three days out.
+              </p>
+              <div className="foot">
+                <span className="platform">iOS</span>
+                <span className="visit">
+                  Learn more <span className="arr">↗</span>
                 </span>
               </div>
             </a>

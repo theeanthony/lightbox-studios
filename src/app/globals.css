@@ -373,6 +373,15 @@ section.products {
   box-shadow: 0 0 10px #6fcf97;
 }
 
+.product.testing .status {
+  color: #d9c48a;
+}
+
+.product.testing .status .dot {
+  background: #e0b95c;
+  box-shadow: 0 0 10px #e0b95c;
+}
+
 .product h3 {
   font-family: var(--display);
   font-weight: 400;
@@ -464,6 +473,10 @@ section.products {
 
 .product.crewtap .panel .glow-blob {
   background: radial-gradient(circle, rgba(40, 160, 80, 0.55), transparent 65%);
+}
+
+.product.summit .panel .glow-blob {
+  background: radial-gradient(circle, rgba(140, 165, 210, 0.55), transparent 65%);
 }
 
 .product .chrome {
